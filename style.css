@@ -1,0 +1,51 @@
+#letter {
+    background-color: rgb(241, 220, 220);
+    border: 3px solid rgb(235, 119, 11);
+    max-width: 25rem;
+    height: 31.5rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#date {
+    background-color: hsl(286, 80%, 48%);
+    border: 3px solid black;
+    max-width: 12.5rem;
+    margin: 10px auto;
+}
+
+#greeting-container {
+    background-color: hsl(286, 80%, 48%);
+    display: flex;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    max-width: fit-content;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+#message {
+    background-color: hsl(286, 80%, 48%);
+    border: 3px solid black;
+    margin: 50px 10px 50px 10px;
+    max-width: 25rem;
+}
+
+#farewell-message {
+    background-color:hsl(286, 80%, 48%);
+    display: flex;
+    border: 3px solid black;
+    max-width: fit-content;
+    padding: 10px;
+    margin: 10px;
+}
+
+#signature {
+    background-color: hsl(286, 80%, 48%);
+    display: flex;
+    border: 3px solid black;
+    max-width: fit-content;
+    padding: 10px;
+    margin: 25px 0px 0px 10px;
+}
